@@ -1,0 +1,35 @@
+{
+  "name": "euljiroad",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "bootstrap": "^5.2.0",
+    "nuka-carousel": "^4.4.7",
+    "prop-types": "^15.7.2",
+    "react": "16.7.0-alpha.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "16.7.0-alpha.0",
+    "react-scripts": "^3.4.1",
+    "react-spring": "^7.2.8",
+    "react-with-gesture": "^4.0.2",
+    "styled-component": "^2.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
