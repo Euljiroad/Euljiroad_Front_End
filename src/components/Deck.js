@@ -5,7 +5,6 @@ import { useGesture } from "react-with-gesture";
 import Card from "./Card";
 import data from "../data.js";
 
-import "../styles/Deck.css";
 
 //deck이 들어갈 container 설정해보기
 //deck.js 내에서 예제를 참조하고 필요한 기능 구현하기
