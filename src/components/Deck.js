@@ -53,7 +53,7 @@ function Deck() {
 
         const rot = xDelta / 100 + (isNope ? dir * 10 * velocity : 0);
 
-        const scale = down ? 1.1 : 1;
+        const scale = 1;
         return {
           x,
           rot,
