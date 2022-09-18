@@ -3,9 +3,8 @@ import React, { useEffect } from 'react'
 
 const Map=({i, data})=>{
   const {lat, lng} = data[i];
-  var divId = "map" + i.toString()
   useEffect(()=>{
-    var container = document.getElementById(divId);
+    var container = document.getElementById(`map${i}`);
     var options = {
       center: new kakao.maps.LatLng(lat, lng),
       level: 3
@@ -22,11 +21,11 @@ const Map=({i, data})=>{
     });
     marker.setMap(map);
 
-    }, [lat, lng, divId])
+    }, [lat, lng, i])
 
     return (
         <div>
-            <div id={divId} style={{height: "380px", width: "290px"}}></div>
+            <div id={`map${i}`} style={{height: "380px", width: "290px"}}></div>
         </div>
     )
 }
