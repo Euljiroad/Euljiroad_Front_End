@@ -56,8 +56,17 @@ const Card = ({ i, x, y, rot, scale, trans, bind, data }) => {
           <Carousel>
             {pics.map((pic, index) => (
               <img src={pic} key={index} alt="food_picture" />
+              
+
+
+
             ))}
           </Carousel>
+          
+{/*           <Map
+            i={i}
+            data={data}
+          /> */}
           <h2>{name},</h2>
           <h2>{age}</h2>
           <h5><FontAwesomeIcon icon={faMapMarkerAlt} /> {distance}</h5>
