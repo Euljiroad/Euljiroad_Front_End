@@ -4,13 +4,15 @@ export default [
   {
     pics: [
       "https://cdn.vox-cdn.com/thumbor/RX04uAR-GhRdN9-en6PmkSj69iU=/0x0:6080x2546/1200x800/filters:focal(2406x699:3378x1671)/cdn.vox-cdn.com/uploads/chorus_image/image/65753797/elsainfall.0.jpg",
-      "https://vignette.wikia.nocookie.net/disney/images/9/95/Profile_-_Elsa.jpeg/revision/latest?cb=20200319054311"
+      "https://vignette.wikia.nocookie.net/disney/images/9/95/Profile_-_Elsa.jpeg/revision/latest?cb=20200319054311",
     ],
     name: "짬뽕야",
     age: 26,
     distance: "1 mile away",
     bio:
-      "짬뽕야 맛있어"
+      "짬뽕야 맛있어",
+    lat: 37.56874974936244, 
+    lng: 126.99851716537624
   },
   {
     pics: [
@@ -20,7 +22,9 @@ export default [
     name: "은주정",
     age: 28,
     distance: "15 miles away",
-    bio: "은주정 좋아."
+    bio: "은주정 좋아.",
+    lat: 37.56874974936244, 
+    lng: 126.99851716537624
   },
   {
     pics: [
@@ -31,7 +35,9 @@ export default [
     age: 32,
     distance: "9 miles away",
     bio:
-      "직식이 최고야"
+      "직식이 최고야",
+    lat: 37.56874974936244, 
+    lng: 126.99851716537624
   },
   {
     pics: [
@@ -41,18 +47,22 @@ export default [
     name: "리김밥",
     age: 25,
     distance: "3 miles away",
-    bio: "김밥 맛있어😉"
+    bio: "김밥 맛있어😉",
+    lat: 37.56874974936244, 
+    lng: 126.99851716537624
   },
   {
     pics: [
       "https://pbs.twimg.com/media/C8HShn0VwAArWJz.jpg",
-      "https://i.pinimg.com/736x/95/ee/91/95ee91b6d78ef79a317ab9482e135458.jpg"
+      "https://i.pinimg.com/736x/95/ee/91/95ee91b6d78ef79a317ab9482e135458.jpg",
     ],
     name: "미스터빠삭",
     age: 27,
     distance: "2 miles away",
     bio:
-      "너무 빠삭해"
+      "너무 빠삭해",
+    lat: 37.56874974936244, 
+    lng: 126.99851716537624
   }
   
 
