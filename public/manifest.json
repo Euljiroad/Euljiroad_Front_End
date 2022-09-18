@@ -1,16 +1,22 @@
 {
-    "short_name": "Euljiroad",
-    "name": "Euljiroad",
-    "icons": [
-      {
-        "src": "favicon.ico",
-        "sizes": "64x64 32x32 24x24 16x16",
-        "type": "image/x-icon"
-      }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
-  }
-  
+  "short_name": "EULJIROAD",
+  "name": "을지로드",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./images/bcLogo_cursor144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+git remote set-url origin https://wonjunghee@github.com/Euljiroad/Euljiroad_Front_End
