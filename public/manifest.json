@@ -1,6 +1,7 @@
 {
   "short_name": "EULJIROAD",
   "name": "을지로드",
+  "description": "을지로의 점심을 책임지는 을 지 로 드",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,4 +20,3 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
-git remote set-url origin https://wonjunghee@github.com/Euljiroad/Euljiroad_Front_End
